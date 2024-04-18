@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- List view of orders -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,12 +12,14 @@
         <tr>
             <th>customer</th>
             <th>amount</th>
+            <!-- add more headings here-->
         </tr>
         <% orders.forEach((order)=>{ %>
             <tr>
                 <td>
                     <%= order.customer_name %>
                 </td>
+                <!-- add more attributes here -->
             </tr>
         <% }); %>
     </table>

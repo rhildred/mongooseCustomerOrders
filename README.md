@@ -9,3 +9,5 @@ npm start
 ```
 
 The idea is to get a starting point that you can build your application on. The files are labeled to say what goes in them.
+
+I hope that this helps.
